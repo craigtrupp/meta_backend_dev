@@ -1,4 +1,4 @@
-# Ungraded Lab
+# Forms!
 
 Working with Forms
 
@@ -143,3 +143,7 @@ Click on the 'Show Table' button, or right-click and choose 'Show Table'.
 ## Concluding thoughts
 
 In this lab, you practiced creating a Model Form using a model. You also populated a database table with data entered from a form on a webpage.
+
+* Images from Browser when Running Server
+![Template Form](assets/browser_form.png)
+![Sql Lite Table Check](assets/sql_lite_output.png)
