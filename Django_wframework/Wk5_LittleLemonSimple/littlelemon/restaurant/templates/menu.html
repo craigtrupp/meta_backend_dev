@@ -2,9 +2,9 @@
 {% load static %}
 {% block content %}
 <h1>Menu</h1>
-<!--Begin col-->
+<!--Begin col sorting with seen review criteria-->
 <div class="column">
-    {% for item in menu %}
+    {% for item in menu|dictsort:'name' %}
     <p>
         <a href="{% url 'menu_item' pk=item.pk %}">
             {{ item.name }}
